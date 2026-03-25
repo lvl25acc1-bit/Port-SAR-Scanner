@@ -1,0 +1,13 @@
+rotterdam_backtest:
+  csv_path: "data/rotterdam_vessel_counts_raw.csv"
+  detection_dir: "data/detections/rotterdam"
+  water_mask: "config/water_masks/rotterdam.gpkg"
+  output_dir: "data/backtest"
+  bbox: [3.88, 51.87, 4.55, 51.99]
+  wind_lat: 51.93
+  wind_lon: 4.25
+  ais_size_thresholds: [400, 600, 800, 1000]
+  primary_size_threshold: 600
+  commercial_types: ["CARGO", "CARRIER", "TANKER", "PASSENGER"]
+  known_gaps: ["2024-05-12"]
+  audit_n_scenes: 20

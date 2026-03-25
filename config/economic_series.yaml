@@ -1,0 +1,52 @@
+fred_series:
+  - id: INDPRO
+    name: "Industrial Production Index"
+    frequency: monthly
+    commodity_group: general
+
+  - id: MANEMP
+    name: "Manufacturing Employment"
+    frequency: monthly
+    commodity_group: general
+
+  - id: BOPGSTB
+    name: "Trade Balance Goods and Services"
+    frequency: monthly
+    commodity_group: general
+
+  - id: DCOILWTICO
+    name: "WTI Crude Oil Price"
+    frequency: daily
+    commodity_group: energy
+
+  - id: PCOPPUSDM
+    name: "Global Copper Price"
+    frequency: monthly
+    commodity_group: metals
+
+  - id: ICSA
+    name: "Initial Jobless Claims"
+    frequency: weekly
+    commodity_group: general
+
+  - id: TOTALSA
+    name: "Total Vehicle Sales"
+    frequency: monthly
+    commodity_group: general
+
+yfinance_tickers:
+  - ticker: "BZ=F"
+    name: "Brent Crude Futures"
+    commodity_group: energy
+
+  - ticker: "HG=F"
+    name: "Copper Futures"
+    commodity_group: metals
+
+  - ticker: "ZS=F"
+    name: "Soybean Futures"
+    commodity_group: grain
+
+  - ticker: "BDRY"
+    name: "Breakwave Dry Bulk Shipping ETF (BDI proxy)"
+    commodity_group: containers

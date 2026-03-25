@@ -1,0 +1,146 @@
+ports:
+  - id: shanghai
+    name: "Port of Shanghai"
+    lat: 30.63
+    lon: 121.84
+    bbox: [121.70, 30.55, 122.00, 30.72]
+    region: asia_pacific
+    annual_teu_millions: 51.5
+
+  - id: singapore
+    name: "Port of Singapore"
+    lat: 1.26
+    lon: 103.83
+    bbox: [103.70, 1.15, 103.95, 1.35]
+    region: asia_pacific
+    annual_teu_millions: 41.1
+
+  - id: ningbo
+    name: "Port of Ningbo-Zhoushan"
+    lat: 29.87
+    lon: 121.95
+    bbox: [121.70, 29.75, 122.20, 30.05]
+    region: asia_pacific
+    annual_teu_millions: 39.3
+
+  - id: shenzhen
+    name: "Port of Shenzhen"
+    lat: 22.48
+    lon: 114.03
+    bbox: [113.85, 22.40, 114.20, 22.58]
+    region: asia_pacific
+    annual_teu_millions: 28.8
+
+  - id: qingdao
+    name: "Port of Qingdao"
+    lat: 36.07
+    lon: 120.32
+    bbox: [120.20, 35.98, 120.45, 36.15]
+    region: asia_pacific
+    annual_teu_millions: 23.7
+
+  - id: busan
+    name: "Port of Busan"
+    lat: 35.07
+    lon: 129.06
+    bbox: [129.00, 35.02, 129.15, 35.12]
+    region: asia_pacific
+    annual_teu_millions: 22.7
+
+  - id: dubai
+    name: "Jebel Ali, Dubai"
+    lat: 25.00
+    lon: 55.06
+    bbox: [54.95, 24.93, 55.15, 25.07]
+    region: middle_east
+    annual_teu_millions: 15.5
+
+  - id: rotterdam
+    name: "Port of Rotterdam"
+    lat: 51.93
+    lon: 4.25
+    bbox: [3.88, 51.87, 4.55, 51.99]
+    region: europe
+    annual_teu_millions: 15.3
+
+  - id: antwerp
+    name: "Port of Antwerp-Bruges"
+    lat: 51.30
+    lon: 4.30
+    bbox: [4.20, 51.22, 4.45, 51.38]
+    region: europe
+    annual_teu_millions: 13.8
+
+  - id: hamburg
+    name: "Port of Hamburg"
+    lat: 53.53
+    lon: 9.93
+    bbox: [9.85, 53.48, 10.05, 53.57]
+    region: europe
+    annual_teu_millions: 8.7
+
+  - id: losangeles
+    name: "Port of Los Angeles"
+    lat: 33.73
+    lon: -118.27
+    bbox: [-118.32, 33.70, -118.22, 33.77]
+    region: north_america
+    annual_teu_millions: 9.9
+
+  - id: santos
+    name: "Port of Santos"
+    lat: -23.97
+    lon: -46.30
+    bbox: [-46.42, -24.33, -46.09, -23.87]
+    region: south_america
+    annual_teu_millions: 5.2
+
+airports:
+  - id: memphis
+    name: "Memphis International (MEM)"
+    lat: 35.04
+    lon: -89.98
+    bbox: [-90.02, 35.02, -89.94, 35.07]
+    role: cargo_hub
+
+  - id: hongkong
+    name: "Hong Kong International (HKG)"
+    lat: 22.31
+    lon: 113.92
+    bbox: [113.88, 22.29, 113.96, 22.34]
+    role: cargo_hub
+
+  - id: shanghai_pvg
+    name: "Shanghai Pudong (PVG)"
+    lat: 31.14
+    lon: 121.81
+    bbox: [121.76, 31.11, 121.87, 31.18]
+    role: cargo_hub
+
+  - id: anchorage
+    name: "Ted Stevens Anchorage (ANC)"
+    lat: 61.17
+    lon: -149.99
+    bbox: [-150.05, 61.14, -149.93, 61.20]
+    role: cargo_hub
+
+  - id: louisville
+    name: "Louisville Muhammad Ali (SDF)"
+    lat: 38.17
+    lon: -85.74
+    bbox: [-85.78, 38.15, -85.70, 38.20]
+    role: cargo_hub
+
+  - id: dubai_dwc
+    name: "Dubai World Central (DWC)"
+    lat: 24.90
+    lon: 55.17
+    bbox: [55.13, 24.87, 55.21, 24.93]
+    role: cargo_hub
+
+  - id: frankfurt
+    name: "Frankfurt Airport (FRA)"
+    lat: 50.03
+    lon: 8.57
+    bbox: [8.51, 50.01, 8.62, 50.06]
+    role: cargo_hub

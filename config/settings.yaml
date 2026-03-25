@@ -1,0 +1,72 @@
+stac:
+  catalog_url: "https://planetarycomputer.microsoft.com/api/stac/v1"
+  collection: "sentinel-1-rtc"
+
+acquisition:
+  data_dir: "data/raw"
+  processed_dir: "data/processed"
+  asset_keys: ["vv", "vh"]
+  start_date: "2023-01-01"
+  end_date: null
+
+cfar:
+  guard_cells: 5
+  background_cells: 15
+  pfa: 1.0e-8
+  min_target_pixels: 20
+  polarization: "vv"
+
+  # Post-CFAR detection gates (applied after CFAR, before clustering)
+  post_detection:
+    min_db: -12.0            # absolute brightness floor — reject detections below this
+    max_aspect_ratio: 6.0    # reject elongated clusters (wave streaks)
+    min_db_contrast: 2.0    # reject clusters with no bright core
+
+  # Per-site overrides — keys are site IDs.  Any CFAR or post_detection
+  # field can be overridden here.  Unspecified fields inherit the global
+  # defaults above.
+  site_overrides:
+    rotterdam:
+      pfa: 1.0e-9
+      min_target_pixels: 15
+      post_detection:
+        min_db: 0.0
+        max_aspect_ratio: 5.0
+        min_peak_to_mean: 1.2
+
+airport:
+  polarization: "vv"
+  threshold_db: -12.0
+  min_cluster_pixels: 5
+
+index:
+  aggregation: "weekly"
+  day_of_week: "monday"
+  normalization: "zscore"
+  rolling_window_weeks: 52
+
+fred:
+  api_key_env: "FRED_API_KEY"
+
+gfw:
+  api_token_env: "GFW_API_TOKEN"
+
+analysis:
+  max_lag_weeks: 12
+  significance_level: 0.05
+  min_observations: 26
+
+paths:
+  detections_dir: "data/detections"
+  indices_dir: "data/indices"
+  economic_dir: "data/economic"
+  zones_dir: "config/zones"
+
+wave_age:
+  young_sea_threshold: 1.2
+  swell_period_threshold: 10.0
+  correction_factors:
+    young_sea: 1.4
+    old_sea: 1.0
+    swell: 0.85
+  wind_speed_scale: 0.03

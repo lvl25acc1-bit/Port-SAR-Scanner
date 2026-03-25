@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "anchorage_north",
+        "zone_type": "anchorage",
+        "capacity_vessels": 30
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[3.90, 51.96], [4.05, 51.96], [4.05, 51.99], [3.90, 51.99], [3.90, 51.96]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "anchorage_south",
+        "zone_type": "anchorage",
+        "capacity_vessels": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[3.92, 51.87], [4.05, 51.87], [4.05, 51.91], [3.92, 51.91], [3.92, 51.87]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "maasvlakte_berth",
+        "zone_type": "berth",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[4.00, 51.93], [4.10, 51.93], [4.10, 51.96], [4.00, 51.96], [4.00, 51.93]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "europoort_berth",
+        "zone_type": "berth",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[4.10, 51.93], [4.20, 51.93], [4.20, 51.96], [4.10, 51.96], [4.10, 51.93]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "approach_channel",
+        "zone_type": "channel",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[4.00, 51.91], [4.15, 51.91], [4.15, 51.94], [4.00, 51.94], [4.00, 51.91]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "inner_harbor",
+        "zone_type": "berth",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[4.20, 51.88], [4.50, 51.88], [4.50, 51.93], [4.20, 51.93], [4.20, 51.88]]]
+      }
+    }
+  ]
+}

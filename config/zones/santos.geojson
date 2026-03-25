@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "inner_harbor_berth",
+        "zone_type": "berth",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.34, -23.93], [-46.28, -23.93], [-46.28, -23.97], [-46.34, -23.97], [-46.34, -23.93]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "approach_channel",
+        "zone_type": "channel",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.28, -23.97], [-46.20, -23.97], [-46.20, -24.02], [-46.28, -24.02], [-46.28, -23.97]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "guaruja_anchorage",
+        "zone_type": "anchorage",
+        "capacity_vessels": 60
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.20, -24.00], [-46.05, -24.00], [-46.05, -24.10], [-46.20, -24.10], [-46.20, -24.00]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "outer_roads_anchorage",
+        "zone_type": "anchorage",
+        "capacity_vessels": 40
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.35, -24.05], [-46.20, -24.05], [-46.20, -24.15], [-46.35, -24.15], [-46.35, -24.05]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "north_anchorage",
+        "zone_type": "anchorage",
+        "capacity_vessels": 25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.20, -23.90], [-46.10, -23.90], [-46.10, -24.00], [-46.20, -24.00], [-46.20, -23.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "port_channel",
+        "zone_type": "channel",
+        "capacity_vessels": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.34, -23.97], [-46.28, -23.97], [-46.28, -24.00], [-46.34, -24.00], [-46.34, -23.97]]]
+      }
+    }
+  ]
+}

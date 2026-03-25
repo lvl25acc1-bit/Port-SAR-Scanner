@@ -1,0 +1,165 @@
+sites:
+  # CRUDE OIL
+  - id: ras_tanura
+    name: "Ras Tanura"
+    lat: 26.63
+    lon: 50.16
+    bbox: [50.05, 26.55, 50.25, 26.72]
+    site_type: port
+    region: middle_east
+    primary_commodity: crude_oil
+    commodity_group: energy
+    throughput_variance_pct: 18.0
+    economic_indicators: ["DCOILWTICO", "BZ=F"]
+
+  - id: fujairah
+    name: "Fujairah Anchorage"
+    lat: 25.12
+    lon: 56.35
+    bbox: [56.20, 25.00, 56.55, 25.25]
+    site_type: port
+    region: middle_east
+    primary_commodity: crude_oil
+    commodity_group: energy
+    throughput_variance_pct: 22.0
+    economic_indicators: ["DCOILWTICO", "BZ=F"]
+    anchorage_bbox: [56.15, 24.95, 56.60, 25.30]
+
+  - id: corpus_christi
+    name: "Corpus Christi"
+    lat: 27.81
+    lon: -97.40
+    bbox: [-97.50, 27.72, -97.30, 27.88]
+    site_type: port
+    region: north_america
+    primary_commodity: crude_oil
+    commodity_group: energy
+    throughput_variance_pct: 16.0
+    economic_indicators: ["DCOILWTICO", "CL=F"]
+
+  # IRON ORE
+  - id: port_hedland
+    name: "Port Hedland"
+    lat: -20.31
+    lon: 118.58
+    bbox: [118.45, -20.40, 118.75, -20.20]
+    site_type: port
+    region: asia_pacific
+    primary_commodity: iron_ore
+    commodity_group: dry_bulk
+    throughput_variance_pct: 14.0
+    economic_indicators: ["PIORECRUSDM"]
+
+  - id: tubarao
+    name: "Tubarao (Vitoria)"
+    lat: -20.28
+    lon: -40.24
+    bbox: [-40.35, -20.35, -40.15, -20.20]
+    site_type: port
+    region: south_america
+    primary_commodity: iron_ore
+    commodity_group: dry_bulk
+    throughput_variance_pct: 15.0
+    economic_indicators: ["PIORECRUSDM"]
+
+  - id: richards_bay
+    name: "Richards Bay"
+    lat: -28.80
+    lon: 32.08
+    bbox: [32.00, -28.88, 32.15, -28.75]
+    site_type: port
+    region: africa
+    primary_commodity: coal
+    commodity_group: dry_bulk
+    throughput_variance_pct: 12.0
+    economic_indicators: ["PCOALAUUSDM"]
+
+  # GRAIN
+  - id: santos
+    name: "Santos"
+    lat: -23.95
+    lon: -46.30
+    bbox: [-46.42, -24.33, -46.09, -24.00]
+    site_type: port
+    region: south_america
+    primary_commodity: grain
+    commodity_group: agriculture
+    throughput_variance_pct: 25.0
+    economic_indicators: ["ZS=F", "ZC=F"]
+    anchorage_bbox: [-46.42, -24.33, -46.09, -24.00]
+
+  - id: paranagua
+    name: "Paranagua"
+    lat: -25.50
+    lon: -48.52
+    bbox: [-48.60, -25.56, -48.42, -25.44]
+    site_type: port
+    region: south_america
+    primary_commodity: grain
+    commodity_group: agriculture
+    throughput_variance_pct: 28.0
+    economic_indicators: ["ZS=F", "ZC=F"]
+
+  - id: new_orleans
+    name: "New Orleans"
+    lat: 29.93
+    lon: -90.00
+    bbox: [-90.15, 29.85, -89.90, 30.00]
+    site_type: port
+    region: north_america
+    primary_commodity: grain
+    commodity_group: agriculture
+    throughput_variance_pct: 20.0
+    economic_indicators: ["ZW=F", "ZC=F"]
+
+  # LNG
+  - id: ras_laffan
+    name: "Ras Laffan"
+    lat: 25.93
+    lon: 51.55
+    bbox: [51.45, 25.85, 51.65, 26.00]
+    site_type: port
+    region: middle_east
+    primary_commodity: lng
+    commodity_group: energy
+    throughput_variance_pct: 10.0
+    economic_indicators: ["PNGASUSUSDM", "NG=F"]
+
+  - id: sabine_pass
+    name: "Sabine Pass"
+    lat: 29.73
+    lon: -93.87
+    bbox: [-93.97, 29.65, -93.75, 29.82]
+    site_type: port
+    region: north_america
+    primary_commodity: lng
+    commodity_group: energy
+    throughput_variance_pct: 19.0
+    economic_indicators: ["PNGASUSUSDM", "NG=F"]
+
+  # CONTROLS (containers, existing data)
+  - id: rotterdam
+    name: "Rotterdam"
+    lat: 51.95
+    lon: 4.15
+    bbox: [3.88, 51.87, 4.55, 51.99]
+    site_type: port
+    region: europe
+    annual_teu_millions: 15.3
+    primary_commodity: containers
+    commodity_group: general
+    throughput_variance_pct: 6.0
+    economic_indicators: ["BOPGSTB", "BDRY"]
+
+  - id: losangeles
+    name: "Los Angeles / Long Beach"
+    lat: 33.74
+    lon: -118.27
+    bbox: [-118.32, 33.70, -118.12, 33.79]
+    site_type: port
+    region: north_america
+    annual_teu_millions: 9.9
+    primary_commodity: containers
+    commodity_group: general
+    throughput_variance_pct: 11.0
+    economic_indicators: ["BOPGSTB", "BDRY"]

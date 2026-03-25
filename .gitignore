@@ -1,0 +1,15 @@
+data/
+*.tif
+*.tiff
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.gpkg-shm
+*.gpkg-wal
+.claude/settings.local.json
