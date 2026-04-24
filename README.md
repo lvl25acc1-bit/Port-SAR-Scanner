@@ -1,8 +1,11 @@
 
 
+
 # Port Volume — SAR-Based Port Anchorage Monitoring
 
 <img width="253" height="320" alt="Klein (santos_presentation)" src="https://github.com/user-attachments/assets/63c6b3b5-abdc-4659-80b5-e9d65ac84d9a" />
+
+<img width="2149" height="1461" alt="wind_residualization" src="https://github.com/user-attachments/assets/d13c1a81-0299-44bb-bbc8-18d550d49c3f" />
 
 Sentinel-1 SAR pipeline for monitoring vessel traffic at commodity port anchorage zones. Detects vessels using CFAR, assigns them to spatial zones (anchorage/berth/channel), and correlates activity with economic indicators.
 
