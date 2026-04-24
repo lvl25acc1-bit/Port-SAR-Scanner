@@ -1,9 +1,10 @@
 
 
 
+
 # Port Volume — SAR-Based Port Anchorage Monitoring
 
-<img width="253" height="320" alt="Klein (santos_presentation)" src="https://github.com/user-attachments/assets/63c6b3b5-abdc-4659-80b5-e9d65ac84d9a" />
+<img width="1012" height="1280" alt="Groß (santos_presentation)" src="https://github.com/user-attachments/assets/f94ad291-289d-44f0-b8e4-5d071b22a2fc" />
 
 <img width="2149" height="1461" alt="wind_residualization" src="https://github.com/user-attachments/assets/d13c1a81-0299-44bb-bbc8-18d550d49c3f" />
 
